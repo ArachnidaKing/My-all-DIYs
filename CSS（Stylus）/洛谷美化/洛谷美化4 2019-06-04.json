@@ -1,0 +1,182 @@
+[
+	{
+		"installDate": 1546685006177,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "背景",
+		"sections": [
+			{
+				"code": "/*\n叶上跳\nhttps://pic.dark.moe/imgdata/2019/06/03/157e69ad5ba11e8bd9a5a8d866dc115b.jpg\n\n草间圆\nhttps://pic.dark.moe/imgdata/2019/06/03/dbeb65f872f4a5b00d1879087b10a87d.jpg\n\n叶上橙佛\nhttps://pic.dark.moe/imgdata/2019/06/03/13b44e7a858cd1e2ef38a2d62c0d1b3d.jpg\n\n橙佛特写\nhttps://pic.dark.moe/imgdata/2019/06/03/82f36ede9b36f37c116bdb4882492946.jpg\n\n橙兜垛\nhttps://pic.dark.moe/imgdata/2019/06/03/41e0b1d98020e3718f09bce044a5f4ab.jpg\n\n地上红顶\nhttps://pic.dark.moe/imgdata/2019/06/03/481a21b7d6b1ab07e1da7279617127e0.jpg\n\n黑猫特写\nhttps://pic.dark.moe/imgdata/2019/06/03/c72439b5eeedf06d78cba06ce9799af3.jpg\n\n黄棘跳\nhttps://pic.dark.moe/imgdata/2019/06/03/277ae8a85d6d922181e91b1c30c411cd.jpg\n\n木上彩牙\nhttps://pic.dark.moe/imgdata/2019/06/03/22fdfa92a57479a3f153ef0814c45ae1.jpg\n\n叶上红\nhttps://pic.dark.moe/imgdata/2019/06/03/f40026f42357f5fbfd27e484ee018da2.jpg\n\n台阶探\nhttps://pic.dark.moe/imgdata/2019/06/03/ccdc868aa169e216b37d3cc895bf59d2.jpg\n\n叶上紫\nhttps://pic.dark.moe/imgdata/2019/06/03/0b1d329ddf19f48ecc3e6644a3536f9f.jpg\n\n石上白\nhttps://pic.dark.moe/imgdata/2019/06/03/7b203485620ca01bd9be78d6d8e2c436.jpg\n\nC8特写\nhttps://pic.dark.moe/imgdata/2019/06/03/f16b975407c31205cb7cc7192b1dd4e0.jpg\n*/",
+				"urlPrefixes": [
+					"https://www.luogu.org/problemnew/"
+				]
+			},
+			{
+				"code": "/*首页*/\n/*叶上跳*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/157e69ad5ba11e8bd9a5a8d866dc115b.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urls": [
+					"https://www.luogu.org/"
+				]
+			},
+			{
+				"code": "/*题目列表*/\n/*草间圆*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/dbeb65f872f4a5b00d1879087b10a87d.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/problemnew/"
+				]
+			},
+			{
+				"code": "/*试炼场*/\n/*草间圆*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/dbeb65f872f4a5b00d1879087b10a87d.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/training/mainpage"
+				]
+			},
+			{
+				"code": "/*比赛*/\n/*橙兜垛*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/7b203485620ca01bd9be78d6d8e2c436.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/contest"
+				]
+			},
+			{
+				"code": "/*评测记录*/\n/*草间圆*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/dbeb65f872f4a5b00d1879087b10a87d.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/recordnew/"
+				]
+			},
+			{
+				"code": "/*讨论*/\n/*地上红顶*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/481a21b7d6b1ab07e1da7279617127e0.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/discuss/"
+				]
+			},
+			{
+				"code": "/*主页*/\n/*黑猫特写*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/c72439b5eeedf06d78cba06ce9799af3.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/space/show?uid="
+				]
+			},
+			{
+				"code": "/*团队*/\n/*叶上橙佛*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/7b203485620ca01bd9be78d6d8e2c436.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/team/",
+					"https://www.luogu.org/space/my_teams"
+				]
+			},
+			{
+				"code": "/*陶片放逐*/\n/*叶上红*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/f40026f42357f5fbfd27e484ee018da2.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/judgement"
+				]
+			},
+			{
+				"code": "/*登录*/\n/*台阶探*/\nbody\n{\n    background: url(https://pic.dark.moe/imgdata/2019/06/03/ccdc868aa169e216b37d3cc895bf59d2.jpg) fixed center;\n    background-attachment: fixed;\n    background-size: cover;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/login/"
+				]
+			}
+		],
+		"id": 27
+	},
+	{
+		"installDate": 1546670564683,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "部分控件总管 v2.1.0",
+		"sections": [
+			{
+				"code": "/*非首页顶端当前目录树*/\nbody > header > .content > div > .lfe-caption\n{\n    visibility: hidden;\n}\n\n/*针对标题栏*/\n#app-header\n{\n    height: 4em !important;\n    z-index: 11 !important;\n    position: sticky;\n    top: 0%;\n}\nheader .bg-wrap\n{\n    width: 100%;\n    background-color: #29db2d;\n}\n\n.content header\n{\n    background-color: #f00;\n}\n\nheader h1\n{\n    transition: none;\n    font-size: 25px !important;/*字号*/\n    margin: -2% 20% !important;/*文字相对按钮坐标*/\n    width: 1000px;\n    color: #ececec;/*文字颜色*/\n}\n\n#app-header > .content > .width-wrap/*min-margin*/ > .bread-crumb\n{\n    margin: 35px 100px !important;\n}\n\n/*某不可见神秘方框*/\n#app-header > .content > .width-wrap/*min-margin*/ > .functional\n{\n    margin: -1000% 0%;\n}\n\n/*非首页标题右上框*/\n.user-nav\n{\n    transition: all 0.2s linear 0s;\n    width: 24%;\n    height: 69px;\n    margin: 2% -5.5%;\n}\n.user-nav:hover\n{\n    transition: all 0.2s linear 0s;\n    background: #ffffffad;\n    box-shadow: 0px -2px 3px 4px #ffffffad;\n    border-radius: 8rem 8rem 0rem 0rem;\n}\n\n/*非首页标题右上框各控件*/\n.user-nav .fas\n{\n    transition: all 0.2s linear 0s;\n    margin: 8% 0%;\n}\n.color-none,.avatar\n{\n    transition: all 0.2s linear 0s;\n}\n.color-none:hover,.avatar:hover\n{\n    transition: all 0.2s linear 0s;\n    background: #36dd49;\n    box-shadow: 0px 7px 10px #36dd49;\n}\n.color-none:hover\n{\n    transition: all 0.2s linear 0s;\n    border-radius: 5rem 5rem 5rem 5rem;\n}\n/*个人操作悬空框*/\n.user-nav > .center\n{\n    transition: all 0.1s linear 0s;\n    margin: 8px 20px 0px;\n}\n.user-nav > .center:hover\n{\n    transition: all 0.1s linear 0s;\n    box-shadow: 0px 0px 10px #17ff2eeb;\n}\n\n\n\n/*红色、绿色按钮*/\n.am-btn,.am-btn-sm\n{\n    transition:0.15s linear 0s;\n    border-radius: 100rem 10rem 100rem 10rem !important;\n}\n.am-btn:hover,.am-btn-sm:hover\n{\n    transition:all 0.15s linear 0s;\n    background:#fff0;\n    box-shadow: 0px 0px 5px 1.5px #29db2d;\n    border-color: #29db2d;\n    border-radius: 10rem 100rem 10rem 100rem !important;\n}\n\n/*蓝色按钮*/\n.am-btn-primary\n{\n    background-color: #29db2d;\n    border-color: #29db2d;\n}\n\n\n\n/*针对标签*/\n.am-radius\n{\n    transition:all 0.15s linear 0s;\n    border-radius: 100rem 10rem 100rem 10rem !important;/*弧度*/\n}\n\n.am-radius:hover\n{\n    transition:all 0.15s linear 0s;\n    border-radius: 10rem 100rem 10rem 100rem !important;/*弧度*/\n}\n\n\n\n/*讨论、犇犇类框*/\n\n.am-comment-hd\n{\n    transition: all 0.2s linear 0s;\n    background: rgba(232, 232, 232, .58);\n    /*讨论犇犇标题底色*/\n    border-top: 1px solid #75c46a;\n    /*讨论犇犇上边框*/\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n.am-comment-hd:hover\n{\n    transition: all 0.2s linear 0s;\n    background: rgba(83, 236, 92, .65);\n    /*讨论犇犇标题底色（鼠标在时）*/\n}\n\n.am-comment-bd\n{\n    transition: all 0.2s linear 0s;\n    background: rgba(232, 232, 232, .46);\n    font-size: 14px;/*讨论犇犇字号*/\n}\n.am-comment-bd:hover\n{\n    transition: all 0.2s linear 0s;\n    background: rgba(68, 179, 61, .14);\n    /*讨论犇犇内容底色（鼠标在时）*/\n}\n\n\n\n/*{首页比赛、讨论、犇犇框}、{多页面右侧固定框}*/\n\n.am-panel,\n.am-comment-main\n{\n    transition: all 0.2s linear 0s;\n    background-color: #00ff091c;\n}\n\n.am-panel:hover,.am-comment-main:hover\n{\n    transition: all 0.2s linear 0s;\n    background-color: #f7fff7b0;\n    box-shadow: 0px 0px 10px #00dbff;\n}\n\n.am-comment-hd\n{\n     z-index: 0 !important;\n}\n\n\n\n/*各类框体总管*/\n.lg-article\n{\n    transition: all 0.2s linear 0s;\n    background-color: #ebffeb99 !important;\n}\n.lg-article:hover\n{\n    transition: all 0.2s linear 0s;\n    box-shadow: 0px 0px 10px 2px #37e2d578;\n}\n\n/*文本输入框*/\n.am-form textarea\n,.am-form:focus\n{\n    transition: all 0.2s linear 0s;\n    height: auto;\n    background: rgba(142, 166, 140, .26) !important;\n}\n.am-form textarea:hover\n{\n    transition: all 0.2s linear 0s;\n    background: rgba(125, 164, 120, .35) !important;\n}\n\n\n\n/*侧边栏*/\n#app-sidenav > .color-none:hover\n{\n    transition: all 0.2s linear 0s;\n    border-radius: 5rem 5rem 5rem 5rem;\n    background: #276f2f;\n    box-shadow: 0px 7px 10px #276f2f;\n}\n\n#app-sidenav > .color-none:hover\n{\n    transition: all 0.2s linear 0s;\n    border-radius: 5rem 5rem 5rem 5rem;\n    background: #276f2f;\n    box-shadow: 0px 7px 10px #276f2f;\n}\n\n\n\n/*链接汉字字体*/\na\n{\n    color: #29b702;\n}\n\n/*英文字体*/\n.ace_content,\ncode\n{\n    font-family: Comic Sans MS;\n}\n\n\n\n/*底端页码栏*/\n\n/*各按钮*/\nbody #app-body-new .pagination-centered > ul > li > a\n{\n    transition: 0.2s;\n    opacity: 0.7;\n    border-style: outset;\n    border-radius: 10rem 10rem 10rem 10rem;\n    background-color: #d6ffd7d9;\n}\nbody #app-body-new .pagination-centered > ul > li > a:hover\n{\n    transition: 0.2s;\n    opacity: 0.9;\n    background-color: #a6a6ffde;\n}\nbody #app-body-new .pagination-centered > ul > li > a:focus\n{\n    border-style: inset;\n}\n/*当前页框*/\nbody #app-body-new .pagination-centered > .am-pagination > .am-active\n{\n    visibility: hidden;\n}\n\n\n\n/* 调整部分结构透明度以适应背景 */\ncode,\npre\n{\n    background-color: #eeeeee82;\n}\n\n.hljs\n{\n    background: #ffffff7d;\n}\n\n.lg-article,\n.lg-article-sub,\n.lg-article-nctrl,\n.lg-content\n{\n    background: rgba(255, 255, 255, .7);\n}\nbody div header\n{\n    position: relative !important;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/"
+				]
+			},
+			{
+				"code": "/*搜索输入条*/\n.am-form-field,\n.am-form-field:focus\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 100rem 0rem 0rem 0rem;\n    background-color:#70df7252;\n    border-color:#4f9e50b5 !important;\n}\n.am-form-field:hover\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 100rem 0rem 0rem 0rem;\n    background-color:#5db75e87 !important;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/problemnew/",
+					"https://www.luogu.org/space/",
+					"https://www.luogu.org/contest/",
+					"https://www.luogu.org/recordnew/",
+					"https://www.luogu.org/discuss/",
+					"https://www.luogu.org/login/"
+				]
+			},
+			{
+				"code": "/*搜索输入条*/\n.am-form-field,\n.am-form-field:focus\n{\n    transition:all 0.2s linear 0s;\n    background-color:#70df7252;\n    border-color:#4f9e50b5 !important;\n}\n.am-form-field:hover\n{\n    transition:all 0.2s linear 0s;\n    background-color:#5db75e87 !important;\n}",
+				"urls": [
+					"https://www.luogu.org/problemnew/new"
+				]
+			},
+			{
+				"code": "/*搜索按钮-列表*/\n.lg-pointer,.am-input-group-label\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 100rem 0rem;\n}\n.am-input-group-label:hover\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 10rem 0rem;\n    background-color:#2ec632;\n    border-color:#2ec632;\n    box-shadow: 0px 0px 5px 1px #29db2d;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/problemnew/lists"
+				]
+			},
+			{
+				"code": "/*搜索按钮-记录*/\n.lg-pointer,.am-input-group-label\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 100rem 0rem;\n}\n.am-input-group-label:hover\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 10rem 0rem 0rem 10rem;\n    background-color:#2ec632;\n    border-color:#2ec632;\n    box-shadow: 0px 0px 5px 1px #29db2d;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/recordnew/"
+				]
+			},
+			{
+				"code": "/*验证码输入框*/\n.lg-input-100,\n.lg-input-100:focus\n{\n    transition:all 0.2s linear 0s;\n    width: 385px;\n    border-radius: 0rem 0rem 0rem 0rem;\n    background-color:#70df7252;\n    border-color:#4f9e50b5 !important;\n}\n.lg-input-100:hover\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 0rem 0rem !important;\n    background-color:#5db75e87;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/login/"
+				]
+			},
+			{
+				"code": "/*讨论内容框*/\n.am-u-md-8 div article .am-comment-main\n{\n    max-width: 90%;\n    display: inline-block;\n    margin: 0px 12px;\n}\n\n/*讨论头像*/\n.am-comment-avatar\n{\n    width: 20px;\n    height: 20px;\n    margin: 45% 0%;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/discuss/"
+				]
+			}
+		],
+		"id": 19
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1555480461018,
+		"name": "分页总管 v2.2.3",
+		"sections": [
+			{
+				"code": "/*首页*/\n\n\n\n/*标题右上框*/\n.user-nav\n{\n    transition: all 0.2s linear 0s;\n    width: 23%;\n    height: 95%;\n    margin: 5px -2.5%;\n}\n.user-nav:hover\n{\n    transition: all 0.2s linear 0s;\n    background: #ffffffad;\n    box-shadow: 0px -2px 3px 5px #ffffffad;/*高亮显示位置、大小、虚化程度*/\n}\n\n/*标题右上框、左侧栏各元素*/\n.user-nav .fas\n{\n    transition: all 0.2s linear 0s;\n    margin: 9% 0%;\n}\n.color-none,.avatar\n{\n    transition: all 0.2s linear 0s;\n}\n.color-none:hover,.avatar:hover\n{\n    transition: all 0.2s linear 0s;\n    background: #36dd49;\n    box-shadow: 0px 7px 10px #36dd49;\n}\n.color-none:hover\n{\n    transition: all 0.2s linear 0s;\n    border-radius: 5rem 5rem 5rem 5rem;\n}\n/*个人操作悬空框*/\n.user-nav > .center\n{\n    transition: all 10s linear 0s;\n    margin: 0px 0px 0px;\n}\n.user-nav > .center:hover\n{\n    transition: all 0.1s linear 0s;\n    box-shadow: 0 0 10px #17ff2eeb;\n}\n\n\n/*问题跳转输入框*/\n.am-form-field\n{\n    transition:all 0.2s linear 0s;\n    background-color:#70df7252;\n    border-color:#4f9e50b5 !important;\n    border-radius: 2rem 2rem 2rem 2rem !important;\n}\n.am-form-field:hover\n{\n    transition:all 0.2s linear 0s;\n    background-color:#5db75e87;\n    border-radius: 0rem 10rem 10rem 0rem !important;\n}\n.am-form-field:focus\n{\n    transition:all 0.2s linear 0s;\n    background-color:#70df7252;\n    border-color:#4f9e50b5 !important;\n    border-radius: 0rem 10rem 10rem 0rem !important;\n}\n\n.lg-pointer/*搜索按钮*/\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 100rem 0rem;\n}\n.am-input-group-label:hover\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 100rem 0rem;\n    background-color:#2ec632;\n    border-color:#2ec632;\n    box-shadow: 0px 0px 5px 3px #29db2d;\n}\n\n\n/*比赛框“未开始、进行中、已结束”*/\nbody div[id*=\"app-body-new\"] > .lg-index-content > .am-g > .am-u-lg-9 > .lg-article > .am-panel-success,body div[id*=\"app-body-new\"] > .lg-index-content > .am-g > .am-u-lg-9 > .lg-article > .am-panel-primary,body div[id*=\"app-body-new\"] > .lg-index-content > .am-g > .am-u-lg-9 > .lg-article > .am-panel-danger\n{\n    width: 100% !important;\n    height: 10% !important;\n}\n\n\n/*讨论头像*/\n.am-panel-primary .am-comment-avatar/*,.lg-inline-up*/\n{\n    width: 20px;\n    height: 14px;\n    margin: -3px -3px;\n}\n/*讨论背景框*/\n/*.am-u-lg-9/*.am-u-md-8*/.lg-index-benben .lg-article\n{\n    width: 633px;\n}\n\n\n/*犇犇条*/\n.am-comments-list-flip li .am-comment-main\n{\n    max-width: 90%;\n    display: inline-block;\n    margin: 0% 1%;\n}\n\n/*犇犇头像*/\n.am-comment-primary div a .am-comment-avatar\n{\n    width: 20px;\n    height: 20px;\n    margin: 45% 0%;\n}",
+				"urls": [
+					"https://www.luogu.org/"
+				]
+			},
+			{
+				"code": "/*题目*/\n\n\n\n/*AC/提交量条*/\n.am-progress\n{\n    transition:all 0.2s linear 0s;\n    color:#fff0;\n    height: 10px;\n    border-radius: 1px 20px 20px 1px;\n    background-color: #ea79e680;\n}\n.am-progress-bar\n{\n    transition:all 0.2s linear 0s;\n    color:#fff0;\n    height: 10px;\n    border-radius: 1px 20px 20px 1px;\n}\n.am-progress-bar:hover,.am-progress:hover/*AC/提交量条*/\n{\n    transition:all 0.2s linear 0s;\n    color:#fff;\n    height: 27px;\n    border-radius: 1px 20px 20px 1px;\n}\n\n/*“交付评测！”按钮*/\nbody > #app-body-new > .lg-main-content > div[name=\"problemleft\"] > .lg-content-left > .lg-article-sub > #submain > #submitcode\n{\n    position: absolute;\n    bottom: 555px;\n    left: 250px;\n    z-index: 100;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/problemnew/"
+				]
+			},
+			{
+				"code": "/*试炼场*/\n\n\n\n/*未解锁题组*/\nbody #app-body-new > .am-g > .am-u-md-8 > .lg-content-left > .am-g > div > .am-panel-default > .am-panel-hd\n{\n    background: #ff2e2e52;\n/*     display: none; */\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/training/"
+				]
+			},
+			{
+				"code": "/*评测记录*/\n\n\n\n/*题目链接未通过*/\nbody #app-body-new a[style*=\"red\"]\n{\n    color: #ff0f0ff2 !important;\n}\n/*题目链接提交过*/\nbody #app-body-new a[style*=\"rgb(255, 140, 0)\"]\n{\n\tcolor: #ffaa1bf2 !important;\n}\n/*题目链接已通过*/\nbody #app-body-new a[style*=\"rgb(0, 128, 0)\"]\n{\n\tcolor: #10c114f5 !important;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/recordnew/"
+				]
+			},
+			{
+				"code": "/*主页*/\n\n\n\n/*私信发送框*/\n.am-u-md-7 > .lg-article > div > .lg-message-send-left > .am-form-field,\n.am-u-md-7 > .lg-article > div > .lg-message-send-left > .am-form-field:focus\n{\n    transition:all 0.2s linear 0s;\n    width: 350px;\n    border-radius: 0rem 0rem 0rem 0rem;\n    background-color:#70df7252;\n    border-color:#4f9e50b5 !important;\n}\n.am-u-md-7 > .lg-article > div > .lg-message-send-left > .am-form-field:hover\n{\n    transition:all 0.2s linear 0s;\n    border-radius: 0rem 0rem 0rem 0rem !important;\n    background-color:#5db75e87;\n}",
+				"urlPrefixes": [
+					"https://www.luogu.org/space/"
+				]
+			}
+		],
+		"id": 33
+	}
+]

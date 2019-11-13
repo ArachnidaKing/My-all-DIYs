@@ -1,0 +1,46 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1555397690287,
+		"name": "Bilisafer v2.13.3",
+		"sections": [
+			{
+				"code": "/*首页*/\n\n/*顶端条背景*/\nbody div[id*=\"app\"] .bili-header-m .nav-menu div[style*=\"background-image\"],\n/*顶端条左侧栏各元素*/\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .fl ul li,\n/*顶端条右侧“投稿”*/\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .up-load,\n/*（未登录）头像下拉菜单*/\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con ul .nav-item .i_menu_login,\n/*（未登录）“历史”*/\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con ul li[report-id*=\"playpage_history\"],\n/*（已登录）头像下拉菜单头像*/\nbody #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .t,\n/*（已登录）头像下拉菜单昵称*/\nbody #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .profile-m > .header-u-info > .header-uname,\n/*（已登录）头像下拉菜单“币”右侧乱七八糟*/\nbody #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .profile-m > .header-u-info > .btns-profile > .currency,body #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .profile-m > .header-u-info > .btns-profile > .phone,body #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .profile-m > .header-u-info > .btns-profile > .email,\n/*（已登录）头像下拉菜单等级*/\nbody #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .profile-m > .header-u-info > .grade,\n/*（已登录）头像下拉菜单“个人中心”等*/\nbody #app > .bili-header-m > .nav-menu > .nav-wrapper > .nav-con > ul > li[report-id*=\"playpage_account\"] > .profile-m > .member-menu,\n/*顶端条右侧“大会员、消息、动态、稍后再看、收藏、历史”*/\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con .fr li[report-id*=\"big_tab_click\"],\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con .fr li[report-id*=\"playpage_message\"],\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con .fr li[report-id*=\"playpage_dynamic\"],\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con .fr li[report-id*=\"playpage_watchlater\"],\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con .fr li[report-id*=\"playpage_collection\"],\nbody div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .nav-con .fr li[report-id*=\"playpage_history\"],\n/*上窄背景条、搜索条*/\nbody div[id*=\"app\"] .bili-header-m div[id*=\"banner_link\"],\n/*上分区条*/\nbody div[id*=\"app\"] .bili-header-m > .bili-wrapper,\n/*滚播、推荐*/\nbody div[id*=\"app\"] .chief-recommend-module,\n/*推广*/\nbody div[id*=\"app\"] .popularize-module,\n/*直播等*/\nbody div[id*=\"app\"] .zone-wrap-module,\n/*特别推荐*/\nbody div[id*=\"app\"] .special-recommend-module,\n/*右侧栏*/\nbody div[id*=\"app\"] .elevator-module,\n/*底端乱七八糟*/\nbody .international-footer,\n/*底端浮动APP广告*/\nbody div[id*=\"app\"] .home-app-download,\n\n\n/*注册页*/\n\n/*上背景图片*/\nbody div[id*=\"login-app\"] div .top-banner,\n/*上标题“登录”*/\nbody div[id*=\"login-app\"] div .title-line,\n/*左侧二维码*/\nbody div[id*=\"login-app\"] div .login-box .login-left,\n/*登录框下“登录、注册”、“微博账号登录、QQ账号登录”*/\nbody > #login-app > div > div > .login-box > .login-right > .form-login > .input-box > ul > .btn-box,body > #login-app > div > div > .login-box > .login-right > .form-login > .input-box > ul > .sns\n{\n    display: none;\n}",
+				"urls": [
+					"https://www.bilibili.com"
+				],
+				"urlPrefixes": [
+					"https://www.bilibili.com/",
+					"https://passport.bilibili.com/"
+				]
+			},
+			{
+				"code": "/*（已登录）头像下拉菜单“币”所在子框*/\nbody #app > .bili-header-m > .nav-menu > .nav-wrapper > .fr > ul > .on > .profile-m > .header-u-info > .btns-profile\n{\n    height: 100px;\n}",
+				"urls": [
+					"https://www.bilibili.com"
+				],
+				"urlPrefixes": [
+					"https://www.bilibili.com/"
+				]
+			},
+			{
+				"code": "/*注册页*/\n\n/*右侧登录元素父元素框*/\nbody div[id*=\"login-app\"] div .login-box .login-right\n{\n    margin: 40% 10%;\n}\n\n/*滑动验证码图片框*/\nbody > #login-app > div > div > .login-box > .login-right > .form-login > .input-box > ul > .gc > .gc-box > .gt_holder > .gt_widget > .gt_box_holder\n{\n/*     width: 1000px !important; */\n}",
+				"urlPrefixes": [
+					"https://passport.bilibili.com/"
+				]
+			},
+			{
+				"code": "/*废弃*/\n\n\n\n/*顶端条左侧*/\n/* body div[id*=\"app\"] .bili-header-m .nav-menu .nav-wrapper .fl */",
+				"urls": [
+					"https://example.com"
+				]
+			}
+		],
+		"id": 1,
+		"updateDate": 1571919714143
+	}
+]

@@ -1,0 +1,63 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1555155275855,
+		"name": "知乎 v2.15.27",
+		"sections": [
+			{
+				"code": "/*首页*/\n\n/*推荐、关注固定夹杂广告*/\n.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .Topstory-mainColumn .Topstory-content .ListShortcut div div .TopstoryItem--advertCard\n/*傻逼脑残狗屎畜生垃圾去你妈的死祖宗十八代知乎*/\n,body #root > div > main > div > .UserStatus\n,body #root > div > main > div > .UserStatus\n,body #root > div > main > div > .UserStatus\n/*推荐、关注图片/视频缩略图*/\n,.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .Topstory-mainColumn .Topstory-content .ListShortcut div div div .Feed div .is-collapsed .RichContent-cover\n/*“热榜”按钮*/\n,.Card .Tabs li[aria-controls*=\"Topstory-hot\"]\n/*右侧栏“Live、书店、付费咨询”*/\n,.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Card .GlobalSideBar-categoryList .GlobalSideBar-categoryItem a[href*=\"lives\"],.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Card .GlobalSideBar-categoryList .GlobalSideBar-categoryItem a[href*=\"pub\"],.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Card .GlobalSideBar-categoryList .GlobalSideBar-categoryItem a[href*=\"consult\"]\n/*右侧栏上固定广告、下浮动广告*/\n,.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Pc-card\n/*右侧栏底端乱七八糟*/\n,.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Footer\n/*顶端下滚后“热榜”*/\n,.Entry-body div[id*=\"root\"] div div .Sticky .PageHeader .TopstoryPageHeader .TopstoryPageHeader-main .Tabs li[aria-controls*=\"Topstory-hot\"]\n\n/*问答页*/\n\n/*右侧栏*/\n,.Entry-body #root div main .QuestionPage .Question-main .Question-sideColumn\n/*回答内容视频*/\n,.RichText-video\n{\n    display: none !important;\n}",
+				"urls": [
+					"https://www.zhihu.com"
+				],
+				"urlPrefixes": [
+					"https://www.zhihu.com/"
+				]
+			},
+			{
+				"code": "/*部分控件统管*/\n\n/*操作栏上“赞同、反对”按钮*/\n.ContentItem-actions span > .VoteButton--up/*赞同*/\n{\n    border-radius: 10rem 0rem 0rem 10rem;\n}\n.ContentItem-actions span .VoteButton--down/*反对*/\n{\n    margin: 0px 0px 0px 0px !important;\n}\n.ContentItem-actions span .VoteButton--down/*反对*/\n{\n    border-radius: 0rem 10rem 10rem 0rem;\n}",
+				"urls": [
+					"https://www.zhihu.com"
+				],
+				"urlPrefixes": [
+					"https://www.zhihu.com/"
+				]
+			},
+			{
+				"code": "/*热榜页*/\n\n.Entry-body #root div main .Topstory .Topstory-container .Topstory-mainColumn #TopstoryContent\n{\n    display: none;\n}",
+				"urls": [
+					"https://www.zhihu.com/hot"
+				]
+			},
+			{
+				"code": "/*首页*/\n\n/*回答*/\nspan > p/*普通正文*/\n,div > div > span/*折叠状态*/\n,ul > li/*带“·”正文*/\n,p b/*黑体正文*/\n,span > ol > li/*带序号*/\n,.ztext\n{\n    opacity: 0.6;\n}\nh1/*问题标题*/\n,h2\n,h3 b/*正文黑体标题*/\n,h3/*黑体正文*/\n,strong/*带杠小标题*/\n{\n    opacity: 0.3;\n}\n\n/*评论*/\nspan > a\n{\n    opacity: 1 !important;\n}\n\n.Input span\n{\n    opacity: 0.9 !important;\n}",
+				"urls": [
+					"https://www.zhihu.com"
+				],
+				"urlPrefixes": [
+					"https://www.zhihu.com/"
+				]
+			},
+			{
+				"code": "/*问答页*/\n\n/*顶端栏下滚问题标题*/\n.Entry-body #root div div header .PageHeader .QuestionHeader-content .QuestionHeader-main h1\n{\n    opacity: 0.1 !important;\n}",
+				"urlPrefixes": [
+					"https://www.zhihu.com/question/"
+				]
+			},
+			{
+				"code": "/*专栏页*/\n\nh1,h2,h3/*标题*/\n{\n    opacity: 0.2 !important;\n}\n\np/*正文*/\n,b/*加粗正文*/\n,a/*其它文字*/\n,.ztext/*评论*/\n{\n    opacity: 0.7 !important;\n}",
+				"urlPrefixes": [
+					"https://zhuanlan.zhihu.com/"
+				]
+			},
+			{
+				"code": "/*常用前缀*/\n/*问答页单个回答：.Entry-body #root div main .QuestionPage .Question-main .ListShortcut .Question-mainColumn .AnswerCard .QuestionAnswer-content .ContentItem*/\n\n\n\n/*废弃*/\n\n/*首页*/\n/*右侧栏“圆桌、专栏”*/\n/*.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Card .GlobalSideBar-categoryList .GlobalSideBar-categoryItem a[href*=\"roundtable\"],.Entry-body div[id*=\"root\"] div main .Topstory .Topstory-container .GlobalSideBar div .Sticky .Card .GlobalSideBar-categoryList .GlobalSideBar-categoryItem a[href*=\"zhuanlan\"] */\n\n/*问答页*/\n/*右侧栏上固定广告*/\n/* ,.Entry-body div[id*=\"root\"] div main .QuestionPage .Question-main .Question-sideColumn div .Sticky .Card .Pc-card */\n/*右侧栏“相关问题”*/\n/* ,body #root > div > main > div > .Question-main > .Question-sideColumn > div > .Sticky > div[data-za-detail-view-path-module*=\"RelatedQuestions\"] */\n/*右侧栏“相关推荐”*/\n/* ,.Entry-body div[id*=\"root\"] div main .QuestionPage .Question-main .Question-sideColumn div .Sticky div[data-za-detail-view-path-module*=\"ContentList\"] */\n/*右侧栏底端乱七八糟*/\n/* ,.Entry-body div[id*=\"root\"] div main .QuestionPage .Question-main .Question-sideColumn div .Sticky footer */"
+			}
+		],
+		"id": 38,
+		"updateDate": 1572086232930
+	}
+]

@@ -1,0 +1,33 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1573344650196,
+		"name": "百度帖吧美化+精简 v2.4.1",
+		"sections": [
+			{
+				"code": "/*帖吧页*/\n/*上部滚动图片*/\n.main-sec > div.top-sec,\n/*帖吧推荐*/\n.r-top-sec,\n/*“帖吧游戏、娱乐中心”*/\n#spage_liveshow_slide,\n/*右侧栏*/\n#right_wrap,\n/*“我的游戏”*/\n#spage_game_tab_wrapper,\n/*帖吧精选专题*/\n.aggregate_entrance_wrap,\n/*“帖吧分类”*/\n.ufw-gap,\n\n/*吧内页*/\n/*帖吧头像*/\n.card_head,\n/*右侧栏*/\n#aside,\n\n/*看帖页*/\n/*吧内资源*/\n#tb_nav,\n/*顶部浮动标题栏*/\n.core_title_absolute_bright,.core_title_absolute_bright,\n/*右侧栏*/\n.right_section,\n/*图片*/\nimg,\n/*楼主*/\n.d_author,\n/*层内“分享”按钮*/\n.share_btn_wrapper,\n/*层内未知空白框*/\n.achievement_medal_section,\n/*回复框作者头像*/\n.lzl_p_p,\n/*右侧浮动纵向栏乱七八糟*/\n.tbui_aside_float_bar,\n/*底部“分享到”*/\n.pb_bright_share,\n/*下部输入框“开通超级会员发贴6倍经验”*/\n.tb_poster_placeholder\n{\n    display: none !important;\n}",
+				"domains": [
+					"tieba.baidu.com"
+				]
+			},
+			{
+				"code": "/*帖吧页*/\n\n\n\n/*“帖吧分类”*/\n#f-d-w\n{\n    visibility: hidden;\n}\n\n/*我的帖吧等级*/\n.forum_level\n{\n    opacity: 0.5;\n}",
+				"domains": [
+					"tieba.baidu.com"
+				]
+			},
+			{
+				"code": "/*看帖页*/\n\n\n\n/*上部吧名所在框*/\n.card_top_wrap,\n/*层内正文*/\n.j_d_post_content,\nh1,\nh2,\nh3,\nspan\n{\n    opacity: 0.7;\n}",
+				"domains": [
+					"tieba.baidu.com"
+				]
+			}
+		],
+		"updateDate": 1573351312037,
+		"id": 45
+	}
+]

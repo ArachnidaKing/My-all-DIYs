@@ -1,0 +1,27 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1572047867809,
+		"name": "SCP精简 v3.2",
+		"sections": [
+			{
+				"code": "/*档案页*/\n\n\n#header/*顶部条*/\n,#side-bar/*左侧栏*/\n,#page-title/*红色标题编号*/\n,#footer/*底部黑条*/\n,#license-area/*授权方式 */\n,#footer-bar/*推荐网站*/\n{\n    display:none !important;\n}",
+				"domains": [
+					"scp-wiki-cn.wikidot.com"
+				]
+			},
+			{
+				"code": "/*档案页*/\n\n\n/*正文框*/\n#main-content\n{\n    margin: 80px 0px 0px 0px !important;\n}",
+				"domains": [
+					"scp-wiki-cn.wikidot.com"
+				]
+			}
+		],
+		"updateDate": 1572048512851,
+		"id": 40
+	}
+]

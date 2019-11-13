@@ -1,0 +1,27 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1572241523186,
+		"name": "萌娘百科精简 v1.26",
+		"sections": [
+			{
+				"code": "/*左侧栏*/\n#mw-panel\n{\n    display: none;\n}",
+				"domains": [
+					"moegirl.org"
+				]
+			},
+			{
+				"code": "/*词条页*/\n\n\n/*正文*/\nh1,h2,h3,h4/*各型标题*/\n{\n    opacity: 0.4;\n}\nb,th/*黑体*/\n{\n    opacity: 0.6;\n}\ndd,p,li,pre/*普通*/\n{\n    opacity: 0.7;\n}\n\n\n/*黑幕*/\n.heimu\n{\n    opacity: 0.4;\n}\n\n",
+				"domains": [
+					"moegirl.org"
+				]
+			}
+		],
+		"updateDate": 1572270554981,
+		"id": 41
+	}
+]

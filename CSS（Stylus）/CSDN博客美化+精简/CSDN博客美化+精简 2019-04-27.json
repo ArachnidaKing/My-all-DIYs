@@ -1,0 +1,44 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1555062014138,
+		"name": "CSDN v2.12.1",
+		"sections": [
+			{
+				"code": "/*通用*/\n/*底端浮动广告*/\nbody > .pulllog-box\n/*正文下固定用户推荐*/\n,body #mainBox > main > .recommend-box > .blog-expert-recommend-box\n/*顶部栏右“小程序”*/\n,.nodata div .pull-right .btns .baidu-app-btn\n/*右侧顶端“手机看、上一篇、下一篇”*/\n,body .tool-box .meau-list .bdsharebuttonbox,body .tool-box .meau-list .widescreen-hide\n\n/*半屏*/\n/*QNMD正文顶端版权声明*/\n,.article-copyright\n/*整个左侧栏*/\n,.nodata .container aside\n/*右侧浮动长条广告*/\n,.nodata .indexSuperise\n/*右下浮动“VIP免广告”*/\n,.nodata .meau-gotop-box a[href*=\"vip\"]\n/*正文下固定广告*/\n,.nodata .container main div[id*=\"dmp_ad\"]\n/*正文下固定夹杂广告*/\n,.nodata .container main .recommend-box .recommend-ad-box\n/*正文下固定夹杂用户推荐*/\n,.nodata .container main .recommend-box .blog-expert-recommend-box\n\n/*全屏*/\n/*右侧浮动广告*/\n,body div[id*=\"kp_box_476\"] .indexSuperise\n/*右下“VIP免广告”*/\n,body .meau-gotop-box a[href*=\"vip\"]\n/*顶部栏右侧“小程序”*/\n,body .csdn-toolbar .container .pull-right .btns .baidu-app-btn\n/*左侧栏*/\n,body .container aside\n/*右侧栏*/\n,body .container .recommend-right\n/*正文下固定广告*/\n,body .container main div[id*=\"dmp_ad_58\"]\n/*正文下固定夹杂广告*/\n,body .container main .recommend-box .recommend-ad-box\n{\n    display: none !important;\n}",
+				"urlPrefixes": [
+					"https://blog.csdn.net/"
+				]
+			},
+			{
+				"code": "/*通用*/\n\n\n/*顶部栏*/\n.csdn-toolbar\n{\n    position: sticky;\n    top: 0%;\n    z-index: 101;\n}",
+				"urlPrefixes": [
+					"https://blog.csdn.net/"
+				]
+			},
+			{
+				"code": "/*半屏*/\n\n\n/*正文*/\nbody .nodata .container main\n{\n    width: 100%;\n}",
+				"urlPrefixes": [
+					"https://blog.csdn.net/"
+				]
+			},
+			{
+				"code": "/*全屏*/\n\n\n/*正文*/\nbody .container main\n{\n    width: 100%;\n}\n\n/*右侧顶端条*/\nbody .tool-box .meau-list\n{\n    position: sticky;\n    top: 5%;\n}",
+				"urlPrefixes": [
+					"https://blog.csdn.net/"
+				]
+			},
+			{
+				"code": "/*废弃*/\n\n\n/*半屏*/\n/*左列上固定广告*/\n/*.container aside .mb8*/\n/*左列下跟随广告+二维码+底端乱七八糟*/\n/*.container aside .asideFooter .aside-box*/\n\n/*全屏*/\n/*左侧栏上固定广告*/\n/* ,body .container aside .csdn-tracking-statistics */\n/*左侧栏顶端作者介绍*/\n/* ,body .container aside div[id*=\"asideProfile\"] */\n/*左侧栏固定“友情链接”*/\n/* ,body .container aside div[id*=\"asideCustom57299457\"] */\n/*左侧栏固定“最新文章”*/\n/* ,body .container aside div[id*=\"asideNewArticle\"] */\n/*左侧栏浮动“归档”*/\n/* ,body .container aside div[id*=\"asideArchive\"] */\n/*左侧栏浮动“热门文章”*/\n/* ,body .container aside div[id*=\"asideHotArticle\"] */\n/*左侧栏底端浮动广告+乱七八糟*/\n/* ,body .container aside div[id*=\"asideFooter\"] */",
+				"urls": [
+					"https://example.com"
+				]
+			}
+		],
+		"id": 1
+	}
+]
